@@ -9,6 +9,11 @@ b {
   margin-top: 10px;
   display: block;
 }
+h2 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
 .sidebar {
   position: fixed;
   height: 100%;
