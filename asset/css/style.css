@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+b {
+  margin-bottom: -10px;
+  margin-top: 10px;
+  display: block;
+}
 .sidebar {
   position: fixed;
   height: 100%;
@@ -127,4 +132,20 @@
 }
 .main p {
   margin-left: 20px;
+}
+code {
+  background-color: #272822;
+  color: #f8f8f2;
+  border-radius: 0.3rem;
+  padding: 4px 5px 5px;
+  white-space: nowrap;
+}
+pre {
+  background-color: #272822;
+  padding: 5px;
+  border-radius: 0.3em;
+}
+
+pre code {
+  white-space: inherit;
 }
