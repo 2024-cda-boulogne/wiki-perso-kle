@@ -112,14 +112,19 @@
 .main {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
   z-index: 100;
   background: #e7f2fd;
+  flex-direction: column;
 }
 .main h1 {
   color: #11101d;
   font-size: 40px;
-  text-align: center;
+  margin-top: 85px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.main p {
+  margin-left: 20px;
 }
