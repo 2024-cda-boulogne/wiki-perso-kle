@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  color: #11101d;
+}
 b {
   margin-bottom: -10px;
   margin-top: 10px;
@@ -136,12 +139,11 @@ img {
   justify-content: flex-start;
   min-height: 100vh;
   z-index: 100;
-  background: #e7f2fd;
   flex-direction: column;
   padding: 25px;
+  background-color: #e7f2fd;
 }
 .main h1 {
-  color: #11101d;
   font-size: 40px;
   margin-top: 85px;
   margin-bottom: 10px;
@@ -165,4 +167,18 @@ pre {
 
 pre code {
   white-space: inherit;
+}
+
+/* DARK MODE */
+.dark-mode * {
+  background-color: black !important;
+  color: white;
+}
+.b-darkmode {
+  position: absolute;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  bottom: 10px;
 }
