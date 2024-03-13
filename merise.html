@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wiki</title>
+    <title>MERISE | Wiki</title>
     <link rel="stylesheet" href="/asset/css/style.css" />
     <meta name="description" content="Mon Wiki perso">
 </head>
@@ -119,27 +119,72 @@
     </nav>
 
     <nav class="navbar">
-      <svg id="sidebar-close" xmlns="http://www.w3.org/2000/svg" height="20" width="17.5" viewBox="0 0 448 512">
-        <path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
-      </svg>
-    <button class="b-darkmode">
-        <a role="button" onclick="darkmode()">
-            <svg xmlns="http://www.w3.org/2000/svg" height="32" width="24" viewBox="0 0 384 512">
-                <path fill="#ffffff" d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/>
-            </svg>
-        </a>
-    </button>
+        <svg id="sidebar-close" xmlns="http://www.w3.org/2000/svg" height="20" width="17.5" viewBox="0 0 448 512">
+            <path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+        </svg>
+        <button class="b-darkmode">
+            <a role="button" onclick="darkmode()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" width="24" viewBox="0 0 384 512">
+                    <path fill="#ffffff" d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/>
+                </svg>
+            </a>
+        </button>
     </nav>
 
     <main class="main">
-        <h1>Bienvenue sur le Wiki !</h1>
-
-        <div id="modal" class="modal">
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <p>Salut ! Je suis développeur web !</p>
+        <h1>La Méthode MERISE</h1>
+            <p>
+                La méthode MERISE est une méthode de conception de bases de données qui permet de structurer le processus de développement d'un système d'information. 
+            </p>
+            <div id="m-donnees">
+                <h2>Dictionnaire de données</h2>
+                <p>
+                    Le dictionnaire de données est une liste exhaustive de toutes les données qui seront utilisées dans le système d'information. 
+                    Chaque donnée est décrite de manière détaillée, notamment son nom, sa description, son type, sa taille, etc. 
+                    Cela permet d'avoir une vue d'ensemble des informations manipulées par le système.
+                </p>
+                <img src="/asset/images/Le+dictionnaire+des+données.jpg" width="350" height="336" alt="Image donnees">
             </div>
-        </div>
+            <div id="m-gestion">
+                <h2>Règles de gestion</h2>
+                <p>
+                    Les règles de gestion définissent les contraintes et les règles spécifiques qui régissent la manipulation et le traitement des données dans le système. 
+                    Elles permettent de garantir la cohérence, l'intégrité et la qualité des données. Ces règles peuvent concerner la validation des données, les relations entre les entités, les autorisations d'accès, etc.
+                </p>
+                <img src="/asset/images/regle-gestion.png" width="400" height="261" alt="Image gestion">
+            </div>
+            <div id="m-mcd">
+                <h2>Modèle Conceptuel de Données (MCD)</h2>
+                <p>
+                    Le MCD est une représentation graphique des entités (ou objets métier), de leurs attributs et des relations qui existent entre ces entités. 
+                    Il s'agit d'un schéma conceptuel qui permet de visualiser la structure générale des données et de comprendre les interactions entre les différentes entités du système.
+                </p>
+                <img src="/asset/images/MCD-Exemple.jpg" width="598" height="480" alt="Image MCD">
+            </div>
+            <div id="m-mld">
+                <h2>Modèle Logique de Données (MLD)</h2>
+                <p>
+                    Le MLD est une transformation du MCD en un modèle plus proche de la réalité du système de gestion de bases de données (SGBD). 
+                    Dans le MLD, les entités sont traduites en tables, les attributs en colonnes, et les relations en contraintes de clés étrangères. 
+                    Cela permet de définir la structure physique de la base de données sans se préoccuper des détails d'implémentation. 
+                </p>
+                <img src="/asset/images/MLD.png" width="585" height="450" alt="Image MLD">
+            </div>
+            <div id="m-mpd">
+                <h2>Modèle Physique de Données (MPD)</h2>
+                <p>
+                    Le MPD est la concrétisation du modèle logique de données dans un SGBD spécifique. 
+                    Il définit les détails d'implémentation comme le type de données, les index, les contraintes d'intégrité, etc. 
+                    Le MPD est généralement exprimé à l'aide d'un langage de définition de données propre au SGBD choisi (par exemple SQL pour les bases de données relationnelles).
+                </p>
+                <img src="/asset/images/MPD.gif" width="640" height="326" alt="Image de classe">
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Salut ! Je suis développeur web !</p>
+                </div>
+            </div>
     </main>
 
     <script src="/asset/js/app.js"></script>
