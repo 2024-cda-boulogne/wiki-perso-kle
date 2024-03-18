@@ -1,6 +1,6 @@
 # Checklist Mise en Ligne d'un Site Statique
 
-## Lien du site en ligne : [lien](https://2024-cda-boulogne.github.io/wiki-perso-kle/)
+## Lien du site : (https://2024-cda-boulogne.github.io/wiki-perso-kle/)
 
 ## SEO
 - [x] Présence d'un fichier Robots.txt : Permettre ou restreindre l'accès aux bots.
