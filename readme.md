@@ -1,0 +1,41 @@
+# Checklist Mise en Ligne d'un Site Statique
+
+## Lien du site : (https://2024-cda-boulogne.github.io/wiki-perso-kle/)
+
+## SEO
+- [x] Présence d'un fichier Robots.txt : Permettre ou restreindre l'accès aux bots.
+- [x] Présence d'un fichier Sitemap XML : Faciliter la compréhension de la structure du site par les moteurs de recherche.
+- [x] Vitesse du Site : Utilisez Google Lighthouse pour identifier les problèmes de performance.
+- [x] Optimisation Mobile : S'assurer en responsive design mode (ou avec [Responsively](https://responsively.app/)).
+- [x] Données Structurées : Utilisez Schema.org pour enrichir le contenu de chaque page.
+
+## SEO de Contenu
+- [x] Recherche de Mots-clés : Vérifier avec un outil comme Ubersuggest les mots clés recherchés en relation avec votre contenu.
+- [ ] Qualité du Contenu : Soignez l'unicité et la valeur apportée.
+- [x] Titres et Meta Descriptions : Incorporez-y les mots-clés pertinents. La meta description doit donner envie de consulter la page. Chaque page doit avoir un titre et une description uniques.
+- [x] Structure du contenu : Utilisez judicieusement les balises H1, H2, H3...
+- [x] Images avec attribut alt : Facilitez la compréhension des images par les moteurs.
+
+## SEO Avancé
+- [ ] SEO International : Appliquez l'attribut lang sur certaines balises si elles contiennent quelques lignes de texte écrites dans une langue différente.
+- [ ] Méta Tags Sociaux : Intégrez Open Graph et Twitter Cards.
+- [ ] Navigation au Clavier : Assurez-vous que le site peut être navigué uniquement au clavier.
+- [ ] Aria Landmarks : Utilisez les rôles ARIA pour identifier les zones de la page.
+- [ ] Contraste des Couleurs : Assurez un contraste suffisant entre le texte et son arrière-plan (WCAG contrast checker).
+- [ ] Taille de Police Ajustable : Permettez aux utilisateurs de modifier la taille du texte sans perte de fonctionnalité (utiliser l'unité rem, pas px).
+- [ ] Transcriptions pour Médias : Offrez des alternatives textuelles pour tout contenu audio ou vidéo.
+
+## Bonnes Pratiques de Développement pour HTML/CSS/JS
+- [x] Utilisation d'un seul H1 par page : Structurez clairement le contenu principal.
+- [x] lang="fr" sur balise html: Si le contenu de votre page est principalement en français.
+- [ ] Balises Sémantiques : Améliorez l'accessibilité et le référencement.
+- [x] Hiérarchie des Titres : Respectez une structure logique.
+- [x] Compression des Ressources : Réduisez la taille des fichiers CSS, JS, et images.
+
+## Avant la Mise en Ligne
+- [x] Optimisation des Images : Réduisez la taille des fichiers sans perdre en qualité.
+- [ ] Minification du CSS/JS : Réduisez la taille des fichiers CSS et JavaScript.
+- [ ] Révision du Contenu : Vérifiez l'exactitude et l'orthographe du contenu.
+- [ ] Fonctionnalités JS : Assurez-vous que le site fonctionne sans JavaScript, si possible.
+- [ ] Compatibilité Navigateurs : Testez sur les principaux navigateurs et appareils.
+- [x] Responsive Design : Vérifiez que le design est adaptatif et fonctionnel sur les dispositifs mobiles.
