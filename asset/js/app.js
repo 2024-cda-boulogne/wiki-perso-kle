@@ -30,6 +30,7 @@ function darkmode() {
   localStorage.setItem('darkmode', !wasDarkmode);
   const element = document.body;
   element.classList.toggle('dark-mode', !wasDarkmode);
+  element.classList/toggle('code-dm', !wasDarkmode);
 }
 
 function onload() {
