@@ -160,7 +160,7 @@ img {
   }
 }
 code {
-  background-color: #272822;
+  background-color: #272822 !important;
   color: #f8f8f2;
   border-radius: 0.3rem;
   padding: 4px 5px 5px;
@@ -177,8 +177,11 @@ pre code {
 }
 /* DARK MODE */
 .dark-mode * {
-  background-color: black !important;
+  background-color: black;
   color: white;
+}
+.code-dm * {
+  background-color: #393e46;
 }
 .b-darkmode {
   position: absolute;
